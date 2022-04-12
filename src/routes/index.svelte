@@ -19,7 +19,7 @@
 <p>Here are my list of cars:</p>
 <ul>
     {#each cars as car}
-        <li><a href="cars/{car.slug}">{car.name}</a></li>
+        <li><a sveltekit:prefetch href="cars/{car.slug}">{car.name}</a></li>
     {/each}
 </ul>
 
