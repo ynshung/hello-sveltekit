@@ -1,6 +1,6 @@
 <script context="module">
 	/** @type {import('@sveltejs/kit').Load} */
-	export const load = async ({ url }) => ({ props: { url } });
+	export const load = async ({ url }) => ({ maxage: 1000, props: { url } });
 </script>
 
 <script>

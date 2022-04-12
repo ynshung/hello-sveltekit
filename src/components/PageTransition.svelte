@@ -2,7 +2,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	export let url = '';
-	const pageTransitionDuration = 300;
+	const pageTransitionDuration = 200;
 </script>
 
 {#key url}
